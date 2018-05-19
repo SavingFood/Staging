@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Notification11Body" xml:space="preserve">
+    <value>&lt;div style="max-width:700px; margin: auto;"&gt;
+			&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;margin:0 auto;max-width:700px; width: 100%;" align="center"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;background-color:#525B69;border-bottom-width:4px;border-bottom-style:solid;border-bottom-color:#AFD647;text-align:left;height:92px;max-width:700px;padding-left:6.428571428571428%;padding-right:6.428571428571428%"&gt;
+							&lt;img src="http://boroume.savingfood.eu/intro_new/gr/img/logo/logo.png" alt="Saving Food" title="Saving Food" style="border-width:0;max-width:100%; height: 80%;"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;padding-left:6.428571428571428%;padding-right:6.428571428571428%;width:700px;background-color:#eeeeee"&gt;
+							&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;width:100%;max-width:700px"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#666666;padding-top:8%;padding-bottom:8%;width:100%;max-width:700px;text-align:left"&gt;
+											&lt;span style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4;color:#666666"&gt;
+												&lt;p&gt;Αγαπητοί φίλοι,&lt;/p&gt;
+												&lt;p&gt;Ευχαριστούμε πολύ για τη θετική σας ανταπόκριση να συμμετάσχετε στη δράση διάσωσης &amp;amp; προσφοράς αγροτικής παραγωγής &lt;b&gt;&lt;$EventTitle$&gt;&lt;/b&gt; στις &lt;b&gt;&lt;$EventStartDate$&gt;&lt;/b&gt;. Θα είναι χαρά μας να σας έχουμε μαζί μας!&lt;/p&gt;
+												&lt;p&gt;Αμέσως μόλις συμπληρωθεί ο ελάχιστος αριθμός εθελοντών, θα λάβετε επιβεβαίωση για την πραγματοποίηση της δράσης. Επίσης, μπορείτε να βρείτε πληροφορίες και ενημερώσεις στη σελίδα της δράσης στην πλατφόρμα και στα σχετικά «σχόλια» του συντονιστή.&lt;/p&gt;
+												&lt;p&gt;Μοιραστείτε τις πληροφορίες για τη δράση αυτή με συγγενείς, φίλους, συναδέλφους!&lt;/p&gt;
+												&lt;p&gt;Ευχαριστούμε πολύ,&lt;br&gt;Η ομάδα του Μπορούμε&lt;/p&gt;
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-top:17px;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p title="Μπορούμε, Ελλάδα"&gt;Για περισσότερες πληροφορίες σχετικά με το SavingFood στην Ελλάδα μπορείτε να επικοινωνήσετε με τον τοπικό Συντονιστή:&lt;br&gt;
+									&lt;a target="_blank" href="http://www.boroume.gr"&gt;Boroume&lt;/a&gt;,
+									&lt;a target="_blank" href="mailto:info@boroume.gr"&gt;info@boroume.gr&lt;/a&gt;&lt;br&gt;
+									Καΐρη 2, Αθήνα | 210 3237805
+								&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p&gt;
+									Για περισσότερες πληροφορίες σχετικά με το συνολικό έργο μπορείτε να επικοινωνήσετε με τον Συντονιστή Έργου:&lt;br&gt;
+									Απόστολος Βόντας, &lt;a target="_blank" href="mailto:avontas@vilabs.eu"&gt;avontas@vilabs.eu&lt;/a&gt;, ViLabs&lt;br&gt;
+									&lt;a target="_blank" href="http://www.savingfood.eu/"&gt;Saving Food&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div&gt;
+								&lt;p style="width:10%;display:inline-block;float:left;"&gt;
+									&lt;img class="pull-right img-responsive" alt="European Union" src="http://boroume.savingfood.eu/intro_new/gr/img/footer/eu.jpg"&gt;
+								&lt;/p&gt;
+								&lt;p style="width:90%;display:inline-block;float:left;"&gt;To SavingFood χρηματοδοτείται από το επιχειρησιακό πρόγραμμα έρευνας και καινοτομίας Horizon 2020 της Ευρωπαϊκής Ένωσης βάσει της συμφωνίας επιχορήγησης αριθ. 688221.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;</value>
+  </data>
+  <data name="Notification11Subject" xml:space="preserve">
+    <value>Ειδοποίηση από SavingFood</value>
+  </data>
+  <data name="Notification1Body" xml:space="preserve">
+    <value>&lt;div style="max-width:700px; margin: auto;"&gt;
+			&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;margin:0 auto;max-width:700px; width: 100%;" align="center"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;background-color:#525B69;border-bottom-width:4px;border-bottom-style:solid;border-bottom-color:#AFD647;text-align:left;height:92px;max-width:700px;padding-left:6.428571428571428%;padding-right:6.428571428571428%"&gt;
+							&lt;img src="http://boroume.savingfood.eu/intro_new/gr/img/logo/logo.png" alt="Saving Food" title="Saving Food" style="border-width:0;max-width:100%; height: 80%;"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;padding-left:6.428571428571428%;padding-right:6.428571428571428%;width:700px;background-color:#eeeeee"&gt;
+							&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;width:100%;max-width:700px"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#666666;padding-top:8%;padding-bottom:8%;width:100%;max-width:700px;text-align:left"&gt;
+											&lt;span style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4;color:#666666"&gt;
+												&lt;p&gt;Hello great and good gleaners!&lt;/p&gt;
+												&lt;p&gt;Next &lt;b&gt;&lt;$EventStartDate$&gt;&lt;/b&gt; from &lt;$EventStartTime$&gt; to &lt;$EventEndTime$&gt; (TBC) we’re inviting volunteers to &lt;$EventPublicLocation$&gt; to help harvest &lt;$EventFoodOffer$&gt; and save them from waste, to supply excellent charities such as FareShare and FoodCycle with much-needed food. Please join us for a rewarding and sociable day in the field in order to support this fantastic cause.&lt;/p&gt;
+												&lt;p&gt;Please sign up ASAP so we have an idea of numbers. Also, please do check whether you can make it, as lots of drop-outs at the last minute can jeopardize the gleaning day going ahead.&lt;/p&gt;
+												&lt;p&gt;Travel expenses can be covered for most people – just check with us first (we cover up to £12 per gleaner).&lt;/p&gt;
+												&lt;p&gt;If you can&amp;#39;t join us this time, watch this space – we’ll have lots more gleaning days coming up, so keep your eyes peeled for dates and locations where you can join us.&lt;/p&gt;
+												&lt;p&gt;Hope to see you soon,&lt;br&gt;The UK Gleaning Team&lt;/p&gt;
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-top:17px;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p title="Μπορούμε, Ελλάδα"&gt;Για περισσότερες πληροφορίες σχετικά με το SavingFood στην Ελλάδα μπορείτε να επικοινωνήσετε με τον τοπικό Συντονιστή:&lt;br&gt;
+									&lt;a target="_blank" href="http://www.boroume.gr"&gt;Boroume&lt;/a&gt;,
+									&lt;a target="_blank" href="mailto:info@boroume.gr"&gt;info@boroume.gr&lt;/a&gt;&lt;br&gt;
+									Καΐρη 2, Αθήνα | 210 3237805
+								&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p&gt;
+									Για περισσότερες πληροφορίες σχετικά με το συνολικό έργο μπορείτε να επικοινωνήσετε με τον Συντονιστή Έργου:&lt;br&gt;
+									Απόστολος Βόντας, &lt;a target="_blank" href="mailto:avontas@vilabs.eu"&gt;avontas@vilabs.eu&lt;/a&gt;, ViLabs&lt;br&gt;
+									&lt;a target="_blank" href="http://www.savingfood.eu/"&gt;Saving Food&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div&gt;
+								&lt;p style="width:10%;display:inline-block;float:left;"&gt;
+									&lt;img class="pull-right img-responsive" alt="European Union" src="http://boroume.savingfood.eu/intro_new/gr/img/footer/eu.jpg"&gt;
+								&lt;/p&gt;
+								&lt;p style="width:90%;display:inline-block;float:left;"&gt;To SavingFood χρηματοδοτείται από το επιχειρησιακό πρόγραμμα έρευνας και καινοτομίας Horizon 2020 της Ευρωπαϊκής Ένωσης βάσει της συμφωνίας επιχορήγησης αριθ. 688221.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;</value>
+  </data>
+  <data name="Notification1Subject" xml:space="preserve">
+    <value>Ειδοποίηση από SavingFood</value>
+  </data>
+  <data name="Notification2Body" xml:space="preserve">
+    <value>&lt;div style="max-width:700px; margin: auto;"&gt;
+			&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;margin:0 auto;max-width:700px; width: 100%;" align="center"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;background-color:#525B69;border-bottom-width:4px;border-bottom-style:solid;border-bottom-color:#AFD647;text-align:left;height:92px;max-width:700px;padding-left:6.428571428571428%;padding-right:6.428571428571428%"&gt;
+							&lt;img src="http://boroume.savingfood.eu/intro_new/gr/img/logo/logo.png" alt="Saving Food" title="Saving Food" style="border-width:0;max-width:100%; height: 80%;"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;padding-left:6.428571428571428%;padding-right:6.428571428571428%;width:700px;background-color:#eeeeee"&gt;
+							&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;width:100%;max-width:700px"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#666666;padding-top:8%;padding-bottom:8%;width:100%;max-width:700px;text-align:left"&gt;
+											&lt;span style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4;color:#666666"&gt;
+												&lt;p&gt;Αγαπητοί συνεργάτες,&lt;/p&gt;
+												&lt;p&gt;Θα θέλαμε να σας ενημερώσουμε για την προγραμματισμένη δράση &lt;b&gt;&lt;$EventTitle$&gt;&lt;/b&gt; στις &lt;b&gt;&lt;$EventStartDate$&gt;&lt;/b&gt;.&lt;/p&gt;
+												&lt;p&gt;Εάν επιθυμείτε να παραλάβετε τα προσφερόμενα τρόφιμα που θα συγκεντρωθούν, καθώς και να συμμετάσχετε στην εθελοντική δράση, μπορείτε να δηλώσετε ενδιαφέρον μέσω της πλατφόρμας SavingFood και να έχετε πρόσβαση σε πρόσθετες πληροφορίες.&lt;/p&gt;
+												&lt;p&gt;Ευχαριστούμε πολύ,&lt;br&gt;Η ομάδα του Μπορούμε&lt;/p&gt;
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-top:17px;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p title="Μπορούμε, Ελλάδα"&gt;Για περισσότερες πληροφορίες σχετικά με το SavingFood στην Ελλάδα μπορείτε να επικοινωνήσετε με τον τοπικό Συντονιστή:&lt;br&gt;
+									&lt;a target="_blank" href="http://www.boroume.gr"&gt;Boroume&lt;/a&gt;,
+									&lt;a target="_blank" href="mailto:info@boroume.gr"&gt;info@boroume.gr&lt;/a&gt;&lt;br&gt;
+									Καΐρη 2, Αθήνα | 210 3237805
+								&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p&gt;
+									Για περισσότερες πληροφορίες σχετικά με το συνολικό έργο μπορείτε να επικοινωνήσετε με τον Συντονιστή Έργου:&lt;br&gt;
+									Απόστολος Βόντας, &lt;a target="_blank" href="mailto:avontas@vilabs.eu"&gt;avontas@vilabs.eu&lt;/a&gt;, ViLabs&lt;br&gt;
+									&lt;a target="_blank" href="http://www.savingfood.eu/"&gt;Saving Food&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div&gt;
+								&lt;p style="width:10%;display:inline-block;float:left;"&gt;
+									&lt;img class="pull-right img-responsive" alt="European Union" src="http://boroume.savingfood.eu/intro_new/gr/img/footer/eu.jpg"&gt;
+								&lt;/p&gt;
+								&lt;p style="width:90%;display:inline-block;float:left;"&gt;To SavingFood χρηματοδοτείται από το επιχειρησιακό πρόγραμμα έρευνας και καινοτομίας Horizon 2020 της Ευρωπαϊκής Ένωσης βάσει της συμφωνίας επιχορήγησης αριθ. 688221.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;</value>
+  </data>
+  <data name="Notification2Subject" xml:space="preserve">
+    <value>Ειδοποίηση από SavingFood</value>
+  </data>
+  <data name="Notification3Body" xml:space="preserve">
+    <value>&lt;div style="max-width:700px; margin: auto;"&gt;
+			&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;margin:0 auto;max-width:700px; width: 100%;" align="center"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;background-color:#525B69;border-bottom-width:4px;border-bottom-style:solid;border-bottom-color:#AFD647;text-align:left;height:92px;max-width:700px;padding-left:6.428571428571428%;padding-right:6.428571428571428%"&gt;
+							&lt;img src="http://boroume.savingfood.eu/intro_new/gr/img/logo/logo.png" alt="Saving Food" title="Saving Food" style="border-width:0;max-width:100%; height: 80%;"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;padding-left:6.428571428571428%;padding-right:6.428571428571428%;width:700px;background-color:#eeeeee"&gt;
+							&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;width:100%;max-width:700px"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#666666;padding-top:8%;padding-bottom:8%;width:100%;max-width:700px;text-align:left"&gt;
+											&lt;span style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4;color:#666666"&gt;
+												&lt;p&gt;Ο κοινωφελής φορέας &lt;b&gt;&lt;$to:username$&gt;&lt;/b&gt; επιβεβαίωσε ότι επιθυμεί να είναι αποδέκτης της προσφοράς στη δράση &lt;b&gt;&lt;$EventTitle$&gt;&lt;/b&gt; στις &lt;b&gt;&lt;$EventStartDate$&gt;  &lt;$EventStartTime$&gt;&lt;/b&gt;.&lt;/p&gt;
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-top:17px;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p title="Μπορούμε, Ελλάδα"&gt;Για περισσότερες πληροφορίες σχετικά με το SavingFood στην Ελλάδα μπορείτε να επικοινωνήσετε με τον τοπικό Συντονιστή:&lt;br&gt;
+									&lt;a target="_blank" href="http://www.boroume.gr"&gt;Boroume&lt;/a&gt;,
+									&lt;a target="_blank" href="mailto:info@boroume.gr"&gt;info@boroume.gr&lt;/a&gt;&lt;br&gt;
+									Καΐρη 2, Αθήνα | 210 3237805
+								&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p&gt;
+									Για περισσότερες πληροφορίες σχετικά με το συνολικό έργο μπορείτε να επικοινωνήσετε με τον Συντονιστή Έργου:&lt;br&gt;
+									Απόστολος Βόντας, &lt;a target="_blank" href="mailto:avontas@vilabs.eu"&gt;avontas@vilabs.eu&lt;/a&gt;, ViLabs&lt;br&gt;
+									&lt;a target="_blank" href="http://www.savingfood.eu/"&gt;Saving Food&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div&gt;
+								&lt;p style="width:10%;display:inline-block;float:left;"&gt;
+									&lt;img class="pull-right img-responsive" alt="European Union" src="http://boroume.savingfood.eu/intro_new/gr/img/footer/eu.jpg"&gt;
+								&lt;/p&gt;
+								&lt;p style="width:90%;display:inline-block;float:left;"&gt;To SavingFood χρηματοδοτείται από το επιχειρησιακό πρόγραμμα έρευνας και καινοτομίας Horizon 2020 της Ευρωπαϊκής Ένωσης βάσει της συμφωνίας επιχορήγησης αριθ. 688221.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;</value>
+  </data>
+  <data name="Notification3Subject" xml:space="preserve">
+    <value>Ειδοποίηση από SavingFood</value>
+  </data>
+  <data name="Notification4Body" xml:space="preserve">
+    <value>&lt;div style="max-width:700px; margin: auto;"&gt;
+			&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;margin:0 auto;max-width:700px; width: 100%;" align="center"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;background-color:#525B69;border-bottom-width:4px;border-bottom-style:solid;border-bottom-color:#AFD647;text-align:left;height:92px;max-width:700px;padding-left:6.428571428571428%;padding-right:6.428571428571428%"&gt;
+							&lt;img src="http://boroume.savingfood.eu/intro_new/gr/img/logo/logo.png" alt="Saving Food" title="Saving Food" style="border-width:0;max-width:100%; height: 80%;"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;padding-left:6.428571428571428%;padding-right:6.428571428571428%;width:700px;background-color:#eeeeee"&gt;
+							&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;width:100%;max-width:700px"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#666666;padding-top:8%;padding-bottom:8%;width:100%;max-width:700px;text-align:left"&gt;
+											&lt;span style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4;color:#666666"&gt;
+												&lt;p&gt;Συμπληρώθηκε ο ελάχιστος αριθμός εθελοντών που χρειάζεται για τη δράση &lt;b&gt;&lt;$EventTitle$&gt;&lt;/b&gt; στις &lt;b&gt;&lt;$EventStartDate$&gt;  &lt;$EventStartTime$&gt;&lt;/b&gt;.&lt;/p&gt;
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-top:17px;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p title="Μπορούμε, Ελλάδα"&gt;Για περισσότερες πληροφορίες σχετικά με το SavingFood στην Ελλάδα μπορείτε να επικοινωνήσετε με τον τοπικό Συντονιστή:&lt;br&gt;
+									&lt;a target="_blank" href="http://www.boroume.gr"&gt;Boroume&lt;/a&gt;,
+									&lt;a target="_blank" href="mailto:info@boroume.gr"&gt;info@boroume.gr&lt;/a&gt;&lt;br&gt;
+									Καΐρη 2, Αθήνα | 210 3237805
+								&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p&gt;
+									Για περισσότερες πληροφορίες σχετικά με το συνολικό έργο μπορείτε να επικοινωνήσετε με τον Συντονιστή Έργου:&lt;br&gt;
+									Απόστολος Βόντας, &lt;a target="_blank" href="mailto:avontas@vilabs.eu"&gt;avontas@vilabs.eu&lt;/a&gt;, ViLabs&lt;br&gt;
+									&lt;a target="_blank" href="http://www.savingfood.eu/"&gt;Saving Food&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div&gt;
+								&lt;p style="width:10%;display:inline-block;float:left;"&gt;
+									&lt;img class="pull-right img-responsive" alt="European Union" src="http://boroume.savingfood.eu/intro_new/gr/img/footer/eu.jpg"&gt;
+								&lt;/p&gt;
+								&lt;p style="width:90%;display:inline-block;float:left;"&gt;To SavingFood χρηματοδοτείται από το επιχειρησιακό πρόγραμμα έρευνας και καινοτομίας Horizon 2020 της Ευρωπαϊκής Ένωσης βάσει της συμφωνίας επιχορήγησης αριθ. 688221.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;</value>
+  </data>
+  <data name="Notification4Subject" xml:space="preserve">
+    <value>Ειδοποίηση από SavingFood</value>
+  </data>
+  <data name="Notification5Body" xml:space="preserve">
+    <value>&lt;div style="max-width:700px; margin: auto;"&gt;
+			&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;margin:0 auto;max-width:700px; width: 100%;" align="center"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;background-color:#525B69;border-bottom-width:4px;border-bottom-style:solid;border-bottom-color:#AFD647;text-align:left;height:92px;max-width:700px;padding-left:6.428571428571428%;padding-right:6.428571428571428%"&gt;
+							&lt;img src="http://boroume.savingfood.eu/intro_new/gr/img/logo/logo.png" alt="Saving Food" title="Saving Food" style="border-width:0;max-width:100%; height: 80%;"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;padding-left:6.428571428571428%;padding-right:6.428571428571428%;width:700px;background-color:#eeeeee"&gt;
+							&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;width:100%;max-width:700px"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#666666;padding-top:8%;padding-bottom:8%;width:100%;max-width:700px;text-align:left"&gt;
+											&lt;span style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4;color:#666666"&gt;
+												&lt;p&gt;Αγαπητοί φίλοι,&lt;/p&gt;
+												&lt;p&gt;Με χαρά επιβεβαιώνουμε ότι θα πραγματοποιηθεί η δράση &lt;b&gt;&lt;$EventTitle$&gt;&lt;/b&gt; στις &lt;b&gt;&lt;$EventStartDate$&gt;  &lt;$EventStartTime$&gt;&lt;/b&gt;.&lt;/p&gt;
+												&lt;p&gt;Σας ευχαριστούμε και πάλι για τη συμμετοχή σας και είναι χαρά μας που θα σας έχουμε μαζί μας.&lt;/p&gt;
+												&lt;p&gt;Η ομάδα του Μπορούμε&lt;/p&gt;
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-top:17px;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p title="Μπορούμε, Ελλάδα"&gt;Για περισσότερες πληροφορίες σχετικά με το SavingFood στην Ελλάδα μπορείτε να επικοινωνήσετε με τον τοπικό Συντονιστή:&lt;br&gt;
+									&lt;a target="_blank" href="http://www.boroume.gr"&gt;Boroume&lt;/a&gt;,
+									&lt;a target="_blank" href="mailto:info@boroume.gr"&gt;info@boroume.gr&lt;/a&gt;&lt;br&gt;
+									Καΐρη 2, Αθήνα | 210 3237805
+								&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p&gt;
+									Για περισσότερες πληροφορίες σχετικά με το συνολικό έργο μπορείτε να επικοινωνήσετε με τον Συντονιστή Έργου:&lt;br&gt;
+									Απόστολος Βόντας, &lt;a target="_blank" href="mailto:avontas@vilabs.eu"&gt;avontas@vilabs.eu&lt;/a&gt;, ViLabs&lt;br&gt;
+									&lt;a target="_blank" href="http://www.savingfood.eu/"&gt;Saving Food&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div&gt;
+								&lt;p style="width:10%;display:inline-block;float:left;"&gt;
+									&lt;img class="pull-right img-responsive" alt="European Union" src="http://boroume.savingfood.eu/intro_new/gr/img/footer/eu.jpg"&gt;
+								&lt;/p&gt;
+								&lt;p style="width:90%;display:inline-block;float:left;"&gt;To SavingFood χρηματοδοτείται από το επιχειρησιακό πρόγραμμα έρευνας και καινοτομίας Horizon 2020 της Ευρωπαϊκής Ένωσης βάσει της συμφωνίας επιχορήγησης αριθ. 688221.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;</value>
+  </data>
+  <data name="Notification5Subject" xml:space="preserve">
+    <value>Ειδοποίηση από SavingFood</value>
+  </data>
+  <data name="Notification6Body" xml:space="preserve">
+    <value>&lt;div style="max-width:700px; margin: auto;"&gt;
+			&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;margin:0 auto;max-width:700px; width: 100%;" align="center"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;background-color:#525B69;border-bottom-width:4px;border-bottom-style:solid;border-bottom-color:#AFD647;text-align:left;height:92px;max-width:700px;padding-left:6.428571428571428%;padding-right:6.428571428571428%"&gt;
+							&lt;img src="http://boroume.savingfood.eu/intro_new/gr/img/logo/logo.png" alt="Saving Food" title="Saving Food" style="border-width:0;max-width:100%; height: 80%;"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;padding-left:6.428571428571428%;padding-right:6.428571428571428%;width:700px;background-color:#eeeeee"&gt;
+							&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;width:100%;max-width:700px"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#666666;padding-top:8%;padding-bottom:8%;width:100%;max-width:700px;text-align:left"&gt;
+											&lt;span style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4;color:#666666"&gt;
+												&lt;p&gt;Αγαπητοί φίλοι,&lt;/p&gt;
+												&lt;p&gt;Θα θέλαμε να σας ενημερώσουμε ότι δυστυχώς δεν θα πραγματοποιηθεί η δράση &lt;b&gt;&lt;$EventTitle$&gt;&lt;/b&gt; στις &lt;b&gt;&lt;$EventStartDate$&gt;&lt;/b&gt; για την οποία έχετε δηλώσει εθελοντική συμμετοχή.&lt;/p&gt;
+												&lt;p&gt;Μπορείτε να ενημερωθείτε για όλες τις προγραμματισμένες δράσεις διάσωσης &amp;amp; προσφοράς τροφίμων μέσω της πλατφόρμας SavingFood.&lt;br&gt; &lt;$Link$&gt;&lt;/p&gt;
+												&lt;p&gt;Ευχαριστούμε πολύ και θα χαρούμε να σας δούμε σύντομα σε μια δράση μας.&lt;/p&gt;
+												&lt;p&gt;Η ομάδα του Μπορούμε&lt;/p&gt;
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-top:17px;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p title="Μπορούμε, Ελλάδα"&gt;Για περισσότερες πληροφορίες σχετικά με το SavingFood στην Ελλάδα μπορείτε να επικοινωνήσετε με τον τοπικό Συντονιστή:&lt;br&gt;
+									&lt;a target="_blank" href="http://www.boroume.gr"&gt;Boroume&lt;/a&gt;,
+									&lt;a target="_blank" href="mailto:info@boroume.gr"&gt;info@boroume.gr&lt;/a&gt;&lt;br&gt;
+									Καΐρη 2, Αθήνα | 210 3237805
+								&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p&gt;
+									Για περισσότερες πληροφορίες σχετικά με το συνολικό έργο μπορείτε να επικοινωνήσετε με τον Συντονιστή Έργου:&lt;br&gt;
+									Απόστολος Βόντας, &lt;a target="_blank" href="mailto:avontas@vilabs.eu"&gt;avontas@vilabs.eu&lt;/a&gt;, ViLabs&lt;br&gt;
+									&lt;a target="_blank" href="http://www.savingfood.eu/"&gt;Saving Food&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div&gt;
+								&lt;p style="width:10%;display:inline-block;float:left;"&gt;
+									&lt;img class="pull-right img-responsive" alt="European Union" src="http://boroume.savingfood.eu/intro_new/gr/img/footer/eu.jpg"&gt;
+								&lt;/p&gt;
+								&lt;p style="width:90%;display:inline-block;float:left;"&gt;To SavingFood χρηματοδοτείται από το επιχειρησιακό πρόγραμμα έρευνας και καινοτομίας Horizon 2020 της Ευρωπαϊκής Ένωσης βάσει της συμφωνίας επιχορήγησης αριθ. 688221.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;</value>
+  </data>
+  <data name="Notification6Subject" xml:space="preserve">
+    <value>Ειδοποίηση από SavingFood</value>
+  </data>
+  <data name="Notification7Body" xml:space="preserve">
+    <value>&lt;div style="max-width:700px; margin: auto;"&gt;
+			&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;margin:0 auto;max-width:700px; width: 100%;" align="center"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;background-color:#525B69;border-bottom-width:4px;border-bottom-style:solid;border-bottom-color:#AFD647;text-align:left;height:92px;max-width:700px;padding-left:6.428571428571428%;padding-right:6.428571428571428%"&gt;
+							&lt;img src="http://boroume.savingfood.eu/intro_new/gr/img/logo/logo.png" alt="Saving Food" title="Saving Food" style="border-width:0;max-width:100%; height: 80%;"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;padding-left:6.428571428571428%;padding-right:6.428571428571428%;width:700px;background-color:#eeeeee"&gt;
+							&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;width:100%;max-width:700px"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#666666;padding-top:8%;padding-bottom:8%;width:100%;max-width:700px;text-align:left"&gt;
+											&lt;span style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4;color:#666666"&gt;
+												&lt;p&gt;Αγαπητοί συνεργάτες,&lt;/p&gt;
+												&lt;p&gt;Θα θέλαμε να σας ενημερώσουμε ότι δυστυχώς δεν θα πραγματοποιηθεί η δράση &lt;b&gt;&lt;$EventTitle$&gt;&lt;/b&gt; στις &lt;b&gt;&lt;$EventStartDate$&gt; &lt;$EventStartTime$&gt;&lt;/b&gt;.&lt;/p&gt;
+												&lt;p&gt;Θα είναι χαρά μας να συνεργαστούμε σε μια μελλοντική δράση διάσωσης &amp;amp; προσφοράς τροφίμων!&lt;/p&gt;
+												&lt;p&gt;Ευχαριστούμε πολύ,&lt;br&gt;Η ομάδα του Μπορούμε&lt;/p&gt;
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-top:17px;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p title="Μπορούμε, Ελλάδα"&gt;Για περισσότερες πληροφορίες σχετικά με το SavingFood στην Ελλάδα μπορείτε να επικοινωνήσετε με τον τοπικό Συντονιστή:&lt;br&gt;
+									&lt;a target="_blank" href="http://www.boroume.gr"&gt;Boroume&lt;/a&gt;,
+									&lt;a target="_blank" href="mailto:info@boroume.gr"&gt;info@boroume.gr&lt;/a&gt;&lt;br&gt;
+									Καΐρη 2, Αθήνα | 210 3237805
+								&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p&gt;
+									Για περισσότερες πληροφορίες σχετικά με το συνολικό έργο μπορείτε να επικοινωνήσετε με τον Συντονιστή Έργου:&lt;br&gt;
+									Απόστολος Βόντας, &lt;a target="_blank" href="mailto:avontas@vilabs.eu"&gt;avontas@vilabs.eu&lt;/a&gt;, ViLabs&lt;br&gt;
+									&lt;a target="_blank" href="http://www.savingfood.eu/"&gt;Saving Food&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div&gt;
+								&lt;p style="width:10%;display:inline-block;float:left;"&gt;
+									&lt;img class="pull-right img-responsive" alt="European Union" src="http://boroume.savingfood.eu/intro_new/gr/img/footer/eu.jpg"&gt;
+								&lt;/p&gt;
+								&lt;p style="width:90%;display:inline-block;float:left;"&gt;To SavingFood χρηματοδοτείται από το επιχειρησιακό πρόγραμμα έρευνας και καινοτομίας Horizon 2020 της Ευρωπαϊκής Ένωσης βάσει της συμφωνίας επιχορήγησης αριθ. 688221.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;</value>
+  </data>
+  <data name="Notification7Subject" xml:space="preserve">
+    <value>Ειδοποίηση από SavingFood</value>
+  </data>
+  <data name="Notification8Body" xml:space="preserve">
+    <value>&lt;div style="max-width:700px; margin: auto;"&gt;
+			&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;margin:0 auto;max-width:700px; width: 100%;" align="center"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;background-color:#525B69;border-bottom-width:4px;border-bottom-style:solid;border-bottom-color:#AFD647;text-align:left;height:92px;max-width:700px;padding-left:6.428571428571428%;padding-right:6.428571428571428%"&gt;
+							&lt;img src="http://boroume.savingfood.eu/intro_new/gr/img/logo/logo.png" alt="Saving Food" title="Saving Food" style="border-width:0;max-width:100%; height: 80%;"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;padding-left:6.428571428571428%;padding-right:6.428571428571428%;width:700px;background-color:#eeeeee"&gt;
+							&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;width:100%;max-width:700px"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#666666;padding-top:8%;padding-bottom:8%;width:100%;max-width:700px;text-align:left"&gt;
+											&lt;span style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4;color:#666666"&gt;
+												&lt;p&gt;Αγαπητοί φίλοι,&lt;/p&gt;
+												&lt;p&gt;Ο κοινωφελής φορέας &lt;b&gt;&lt;$to:username$&gt;&lt;/b&gt; επιβεβαίωσε την παραλαβή των τροφίμων που συγκεντρώθηκαν στη δράση &lt;b&gt;&lt;$EventTitle$&gt;&lt;/b&gt; στις &lt;b&gt;&lt;$EventStartDate$&gt;&lt;/b&gt;&lt;/p&gt;
+												&lt;p&gt;Η ομάδα του Μπορούμε&lt;/p&gt;
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-top:17px;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p title="Μπορούμε, Ελλάδα"&gt;Για περισσότερες πληροφορίες σχετικά με το SavingFood στην Ελλάδα μπορείτε να επικοινωνήσετε με τον τοπικό Συντονιστή:&lt;br&gt;
+									&lt;a target="_blank" href="http://www.boroume.gr"&gt;Boroume&lt;/a&gt;,
+									&lt;a target="_blank" href="mailto:info@boroume.gr"&gt;info@boroume.gr&lt;/a&gt;&lt;br&gt;
+									Καΐρη 2, Αθήνα | 210 3237805
+								&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p&gt;
+									Για περισσότερες πληροφορίες σχετικά με το συνολικό έργο μπορείτε να επικοινωνήσετε με τον Συντονιστή Έργου:&lt;br&gt;
+									Απόστολος Βόντας, &lt;a target="_blank" href="mailto:avontas@vilabs.eu"&gt;avontas@vilabs.eu&lt;/a&gt;, ViLabs&lt;br&gt;
+									&lt;a target="_blank" href="http://www.savingfood.eu/"&gt;Saving Food&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div&gt;
+								&lt;p style="width:10%;display:inline-block;float:left;"&gt;
+									&lt;img class="pull-right img-responsive" alt="European Union" src="http://boroume.savingfood.eu/intro_new/gr/img/footer/eu.jpg"&gt;
+								&lt;/p&gt;
+								&lt;p style="width:90%;display:inline-block;float:left;"&gt;To SavingFood χρηματοδοτείται από το επιχειρησιακό πρόγραμμα έρευνας και καινοτομίας Horizon 2020 της Ευρωπαϊκής Ένωσης βάσει της συμφωνίας επιχορήγησης αριθ. 688221.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;</value>
+  </data>
+  <data name="Notification8Subject" xml:space="preserve">
+    <value>Ειδοποίηση από SavingFood</value>
+  </data>
+  <data name="Notification9Body" xml:space="preserve">
+    <value>&lt;div style="max-width:700px; margin: auto;"&gt;
+			&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;margin:0 auto;max-width:700px; width: 100%;" align="center"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;background-color:#525B69;border-bottom-width:4px;border-bottom-style:solid;border-bottom-color:#AFD647;text-align:left;height:92px;max-width:700px;padding-left:6.428571428571428%;padding-right:6.428571428571428%"&gt;
+							&lt;img src="http://boroume.savingfood.eu/intro_new/gr/img/logo/logo.png" alt="Saving Food" title="Saving Food" style="border-width:0;max-width:100%; height: 80%;"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;padding-left:6.428571428571428%;padding-right:6.428571428571428%;width:700px;background-color:#eeeeee"&gt;
+							&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;width:100%;max-width:700px"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#666666;padding-top:8%;padding-bottom:8%;width:100%;max-width:700px;text-align:left"&gt;
+											&lt;span style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4;color:#666666"&gt;
+												&lt;p&gt;Αγαπητοί φίλοι,&lt;/p&gt;
+												&lt;p&gt;Θα θέλαμε να σας ευχαριστήσουμε και πάλι για τη συμμετοχή σας στη δράση &lt;b&gt;&lt;$EventTitle$&gt;&lt;/b&gt; και την πολύτιμη βοήθειά σας στη διάσωση θρεπτικών τροφίμων &amp;amp; την προσφορά τους σε τοπικό κοινωφελή φορέα για τη στήριξη συνανθρώπων μας που βρίσκονται σε ανάγκη.&lt;/p&gt;
+												&lt;p&gt;Μείνετε συντονισμένοι στην πλατφόρμα SavingFood για προσεχείς δράσεις.&lt;/p&gt;
+												&lt;p&gt;Θα χαρούμε να σας έχουμε και πάλι μαζί μας σε μια μελλοντική δράση!&lt;/p&gt;
+												&lt;p&gt;Η ομάδα του Μπορούμε&lt;/p&gt;
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-top:17px;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p title="Μπορούμε, Ελλάδα"&gt;Για περισσότερες πληροφορίες σχετικά με το SavingFood στην Ελλάδα μπορείτε να επικοινωνήσετε με τον τοπικό Συντονιστή:&lt;br&gt;
+									&lt;a target="_blank" href="http://www.boroume.gr"&gt;Boroume&lt;/a&gt;,
+									&lt;a target="_blank" href="mailto:info@boroume.gr"&gt;info@boroume.gr&lt;/a&gt;&lt;br&gt;
+									Καΐρη 2, Αθήνα | 210 3237805
+								&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p&gt;
+									Για περισσότερες πληροφορίες σχετικά με το συνολικό έργο μπορείτε να επικοινωνήσετε με τον Συντονιστή Έργου:&lt;br&gt;
+									Απόστολος Βόντας, &lt;a target="_blank" href="mailto:avontas@vilabs.eu"&gt;avontas@vilabs.eu&lt;/a&gt;, ViLabs&lt;br&gt;
+									&lt;a target="_blank" href="http://www.savingfood.eu/"&gt;Saving Food&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div&gt;
+								&lt;p style="width:10%;display:inline-block;float:left;"&gt;
+									&lt;img class="pull-right img-responsive" alt="European Union" src="http://boroume.savingfood.eu/intro_new/gr/img/footer/eu.jpg"&gt;
+								&lt;/p&gt;
+								&lt;p style="width:90%;display:inline-block;float:left;"&gt;To SavingFood χρηματοδοτείται από το επιχειρησιακό πρόγραμμα έρευνας και καινοτομίας Horizon 2020 της Ευρωπαϊκής Ένωσης βάσει της συμφωνίας επιχορήγησης αριθ. 688221.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;</value>
+  </data>
+  <data name="Notification9Subject" xml:space="preserve">
+    <value>Ειδοποίηση από SavingFood</value>
+  </data>
+  <data name="VolunteerRegistrationBody" xml:space="preserve">
+    <value>&lt;div style="max-width:700px; margin: auto;"&gt;
+			&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;margin:0 auto;max-width:700px; width: 100%;" align="center"&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;background-color:#525B69;border-bottom-width:4px;border-bottom-style:solid;border-bottom-color:#AFD647;text-align:left;height:92px;max-width:700px;padding-left:6.428571428571428%;padding-right:6.428571428571428%"&gt;
+							&lt;img src="http://boroume.savingfood.eu/intro_new/gr/img/logo/logo.png" alt="Saving Food" title="Saving Food" style="border-width:0;max-width:100%; height: 80%;"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="padding-top:0;padding-bottom:0;padding-left:6.428571428571428%;padding-right:6.428571428571428%;width:700px;background-color:#eeeeee"&gt;
+							&lt;table style="border-spacing:0;font-family:sans-serif;color:#333333;width:100%;max-width:700px"&gt;
+								&lt;tbody&gt;
+									&lt;tr&gt;
+										&lt;td style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#666666;padding-top:8%;padding-bottom:8%;width:100%;max-width:700px;text-align:left"&gt;
+											&lt;span style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.4;color:#666666"&gt;
+												&lt;p&gt;Αγαπητοί φίλοι,&lt;/p&gt;
+												&lt;p&gt;Σας ευχαριστούμε πάρα πολύ για την εγγραφή σας στην πλατφόρμα SavingFood. Μόλις γίνατε μέλη μιας δικτυωμένης κοινότητας εθελοντών, δωρητών και κοινωφελών φορέων, με κοινό στόχο τη μείωση της σπατάλης τροφίμων και την αύξηση της επισιτιστικής προσφοράς προς συνανθρώπους μας που βρίσκονται σε ανάγκη.&lt;/p&gt;
+												&lt;p&gt;Μέσω της πλατφόρμας μπορείτε να βρείτε πληροφοριακό υλικό για το ζήτημα της σπατάλης τροφίμων και επιπλέον έχετε τη δυνατότητα να συμμετέχετε ενεργά σε εθελοντικές δράσεις διάσωσης &amp;amp; προσφοράς τροφίμων. Συγκεκριμένα, θα έχετε πρόσβαση σε όλες τις πληροφορίες για τις δράσεις των προγραμμάτων «Μπορούμε στη Λαϊκή» και «Μπορούμε στο Χωράφι».&lt;/p&gt;
+												&lt;p&gt;Είμαστε σίγουροι πως θα βρείτε δράσεις που ανταποκρίνονται στη διαθεσιμότητα και τα ενδιαφέροντά σας. Δηλώστε συμμετοχή, θα χαρούμε να σας έχουμε μαζί μας!&lt;/p&gt;
+												&lt;p&gt;Ευχαριστούμε πολύ,&lt;br&gt;Η ομάδα του Μπορούμε&lt;/p&gt;
+											&lt;/span&gt;
+										&lt;/td&gt;
+									&lt;/tr&gt;
+								&lt;/tbody&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-top:17px;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p title="Μπορούμε, Ελλάδα"&gt;Για περισσότερες πληροφορίες σχετικά με το SavingFood στην Ελλάδα μπορείτε να επικοινωνήσετε με τον τοπικό Συντονιστή:&lt;br&gt;
+									&lt;a target="_blank" href="http://www.boroume.gr"&gt;Boroume&lt;/a&gt;,
+									&lt;a target="_blank" href="mailto:info@boroume.gr"&gt;info@boroume.gr&lt;/a&gt;&lt;br&gt;
+									Καΐρη 2, Αθήνα | 210 3237805
+								&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div style="width:50%;display:inline-block;float:left;"&gt;
+								&lt;p&gt;
+									Για περισσότερες πληροφορίες σχετικά με το συνολικό έργο μπορείτε να επικοινωνήσετε με τον Συντονιστή Έργου:&lt;br&gt;
+									Απόστολος Βόντας, &lt;a target="_blank" href="mailto:avontas@vilabs.eu"&gt;avontas@vilabs.eu&lt;/a&gt;, ViLabs&lt;br&gt;
+									&lt;a target="_blank" href="http://www.savingfood.eu/"&gt;Saving Food&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td style="background-color:#fbfbfb;border-top-width:1px;border-top-style:solid;border-top-color:#c9cfdb;padding-bottom:10px;font-size:12px; text-align:center;"&gt;
+							&lt;div&gt;
+								&lt;p style="width:10%;display:inline-block;float:left;"&gt;
+									&lt;img class="pull-right img-responsive" alt="European Union" src="http://boroume.savingfood.eu/intro_new/gr/img/footer/eu.jpg"&gt;
+								&lt;/p&gt;
+								&lt;p style="width:90%;display:inline-block;float:left;"&gt;To SavingFood χρηματοδοτείται από το επιχειρησιακό πρόγραμμα έρευνας και καινοτομίας Horizon 2020 της Ευρωπαϊκής Ένωσης βάσει της συμφωνίας επιχορήγησης αριθ. 688221.&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+		&lt;/div&gt;</value>
+  </data>
+  <data name="VolunteerRegistrationSubject" xml:space="preserve">
+    <value>Ειδοποίηση από SavingFood</value>
+  </data>
+  <data name="VolunteerRequestToCordinatorBody" xml:space="preserve">
+    <value>New volunteer commitment for the event {0} &lt;br/&gt; &lt;a href='{1}' target='_blank'&gt;Click here&lt;/a&gt; for user details.</value>
+  </data>
+  <data name="VolunteerRequestToCordinatorSubject" xml:space="preserve">
+    <value>Volunteer Commitment</value>
+  </data>
+</root>

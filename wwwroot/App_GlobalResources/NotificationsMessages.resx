@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NotifyEventCanceledUsersBody" xml:space="preserve">
+    <value>Dear &lt;$Name$&gt;,
+I’m sorry to inform you that we have had to cancel &lt;$EventTitle$&gt;. Please confirm receipt of this email. We will let you know if other events come up in your area.
+Thank you,
+The UK Gleaning Team. 
+
+&lt;$Link$&gt;</value>
+  </data>
+  <data name="NotifyEventCanceledUsersSubject" xml:space="preserve">
+    <value>Saving Food Event Canceled</value>
+  </data>
+  <data name="NotifyVolunteerCommitSubmittedBody" xml:space="preserve">
+    <value>Thank you for signing up to our gleaning day! We’ve received your sign up, and will be in touch to confirm your attendance and travel route, and with final details, closer to the gleaning day. If you need a lift, we’ll endeavour to link you with a liftshare or recommend public transport routes. If you realise you can no longer make the gleaning day, please let us know asap, as last minute drop-outs can jeopardise our gleaning days going ahead. We hope to see you in the fields soon!
+
+&lt;$Link$&gt;</value>
+  </data>
+  <data name="NotifyVolunteerCommitSubmittedSubject" xml:space="preserve">
+    <value>Saving Food Volunteer Commitment</value>
+  </data>
+  <data name="NotifyVolunteerOnEventCreatedBody" xml:space="preserve">
+    <value>&lt;h2&gt;Hello great and good gleaners!&lt;/h2&gt;
+    &lt;p&gt;Next &lt;$EventStartDate$&gt; from &lt;$EventStartTime$&gt; to &lt;$EventEndTime$&gt; (TBC) we’re inviting volunteers to &lt;$EventPublicLocation$&gt; to help harvest &lt;$EventFoodOffer$&gt; and save them from waste, to supply excellent charities such as FareShare and FoodCycle with much-needed food. Please join us for a rewarding and sociable day in the field in order to support this fantastic cause.&lt;/p&gt;
+    &lt;p&gt;Please sign up ASAP so we have an idea of numbers. Also, please do check whether you can make it, as lots of drop-outs at the last minute can jeopardize the gleaning day going ahead.&lt;/p&gt;
+    &lt;p&gt;Travel expenses can be covered for most people – just check with us first (we cover up to £12 per gleaner).&lt;/p&gt;
+    &lt;p&gt;If you can't join us this time, watch this space – we’ll have lots more gleaning days coming up, so keep your eyes peeled for dates and locations where you can join us.&lt;/p&gt;
+    &lt;p&gt;Hope to see you soon,&lt;/p&gt;
+    &lt;h3&gt;The UK Gleaning Team&lt;/h3&gt;
+&lt;$Link$&gt;</value>
+  </data>
+  <data name="NotifyVolunteerOnEventCreatedSubject" xml:space="preserve">
+    <value>New Event Created</value>
+  </data>
+  <data name="RecipientCancelRequestBody" xml:space="preserve">
+    <value>Your recipient commitment for the event {0} was canceled.</value>
+  </data>
+  <data name="RecipientCancelRequestSubject" xml:space="preserve">
+    <value>Saving Food Recipient Commitment Cancellation</value>
+  </data>
+  <data name="RecipientCancelRequestToCordinatorBody" xml:space="preserve">
+    <value>Recipient commitment cancellation for the event {0} &lt;br/&gt; &lt;a href='{1}' target='_blank'&gt;Click here&lt;/a&gt; for user details.</value>
+  </data>
+  <data name="RecipientCancelRequestToCordinatorSubject" xml:space="preserve">
+    <value>Recipient Commitment Cancellation</value>
+  </data>
+  <data name="RecipientRequestBody" xml:space="preserve">
+    <value>Hi there&lt;br/&gt;
+You will be pleased to hear that we hope to donate to you &lt;$FoodOfferItem$&gt; from a glean happening at &lt;$PublicLocation$&gt; on &lt;$EventStartDate$&gt;.&lt;br/&gt;
+We’ll send you more details nearer the time.&lt;br/&gt;
+The UK Gleaning Team&lt;br/&gt;
+&lt;$EventLink$&gt;</value>
+  </data>
+  <data name="RecipientRequestSubject" xml:space="preserve">
+    <value>Saving Food Recipient Commitment</value>
+  </data>
+  <data name="RecipientRequestToCordinatorBody" xml:space="preserve">
+    <value>Hi&lt;br/&gt;
+&lt;$Name$&gt; &lt;$Surname$&gt; has agreed to attend &lt;$EventTitle$&gt;&lt;br/&gt;
+This is an automated message from the SavingFood platform.&lt;br/&gt;
+&lt;$EventLink$&gt;</value>
+  </data>
+  <data name="RecipientRequestToCordinatorSubject" xml:space="preserve">
+    <value>Recipient Commitment</value>
+  </data>
+  <data name="VolunteerCancelRequestBody" xml:space="preserve">
+    <value>Your volunteer commitment for the event {0} was cancelled.</value>
+  </data>
+  <data name="VolunteerCancelRequestSubject" xml:space="preserve">
+    <value>Saving Food Volunteer Commitment Cancellation</value>
+  </data>
+  <data name="VolunteerCancelRequestToCordinatorBody" xml:space="preserve">
+    <value>Volunteer commitment cancellation for the event {0} &lt;br/&gt; &lt;a href='{1}' target='_blank'&gt;Click here&lt;/a&gt; for user details.</value>
+  </data>
+  <data name="VolunteerCancelRequestToCordinatorSubject" xml:space="preserve">
+    <value>Volunteer Commitment Cancellation</value>
+  </data>
+  <data name="VolunteerNeededFullBody" xml:space="preserve">
+    <value>Good news! &lt;$EventTitle$&gt; on &lt;$EventStartDate$&gt; from &lt;$EventStartTime$&gt; to &lt;$EventEndTime$&gt; has reached the minimum number of participants.&lt;br/&gt;
+&lt;$Link$&gt;</value>
+  </data>
+  <data name="VolunteerNeededFullSubject" xml:space="preserve">
+    <value>Event reached number of participants</value>
+  </data>
+  <data name="VolunteerRegistrationBody" xml:space="preserve">
+    <value>You just signed up to Feedback's gleaning revolution! Welcome! We look forward to you joining us in the fields, to save all that tasty food from going to waste for charity! I'm your regional gleaning coordinator, and will be letting you know about gleaning days and events you can get involved with around Kent. Gleaning in Kent gets going mostly around Autumn to Winter. There are also likely to be some gleans and other events throughout the year.</value>
+  </data>
+  <data name="VolunteerRegistrationSubject" xml:space="preserve">
+    <value>Saving Food Volunteer Registration</value>
+  </data>
+  <data name="VolunteerRequestToCordinatorBody" xml:space="preserve">
+    <value>New volunteer commitment for the event {0} &lt;br/&gt; &lt;a href='{1}' target='_blank'&gt;Click here&lt;/a&gt; for user details.</value>
+  </data>
+  <data name="VolunteerRequestToCordinatorSubject" xml:space="preserve">
+    <value>Volunteer Commitment</value>
+  </data>
+</root>
